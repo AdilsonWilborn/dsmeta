@@ -1,6 +1,6 @@
 /* no REACT cada componente vai ser armanezado em um tsx, ts de type script e x indica que é um arquivo do REACT  */
-import icon from '../../assets/img/notification-icon.svg'
-import './styles.css'
+import icon from '../../assets/img/notification-icon.svg';
+import './styles.css';
 function NotificationButton() {
     return (
         <>
@@ -11,4 +11,4 @@ function NotificationButton() {
     )
 }
 
-export default NotificationButton
+export default NotificationButton;
