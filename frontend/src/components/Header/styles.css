@@ -1,0 +1,36 @@
+header {
+    background: linear-gradient(180deg, #102347 0%, #181818 100%);
+    /* deixa um degrade*/
+    height: 220px;
+    display: flex;
+    /*joga para esquerda*/
+    align-items: center;
+    /*coloca no centro (de baixo pra cima)*/
+    justify-content: center;
+    /*coloca no centro na horizontal >>> xxx <<<*/
+}
+
+.dsmeta-logo-container {
+    display: flex;
+    /* Flex vai colocar 1 de baixo do outro */
+    flex-direction: column;
+    /* vai direcionar um em baixo do outro*/
+    align-items: center;
+    /* alinha no centro */
+}
+
+.dsmeta-logo-container img {
+    width: 235px;
+    /* controlo a imagem pq com flex fica super grande */
+}
+
+.dsmeta-logo-container h1 {
+    margin-top: 15px;
+    /*espaçemento topo do h1*/
+    font-size: 24px;
+}
+
+.dsmeta-logo-container p {
+    font-size: 14px;
+    font-weight: 300;
+}
